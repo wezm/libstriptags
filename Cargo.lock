@@ -367,6 +367,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "striptags"
 version = "0.1.0"
 dependencies = [
+ "lazy_static 1.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "sanitize_html 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 

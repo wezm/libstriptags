@@ -9,5 +9,4 @@ edition = "2018"
 crate-type = ["cdylib"]
 
 [dependencies]
-lazy_static = "1"
-sanitize_html = "0.5.1"
+sanitize_html = "0.6.0"

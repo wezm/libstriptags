@@ -31,8 +31,8 @@ pub unsafe extern "C" fn strip_tags(
 }
 
 #[no_mangle]
-pub unsafe extern "C" fn strip_tags_free( bytes: *mut u8,) {
-    Box::from_raw(bytes);
+pub unsafe extern "C" fn strip_tags_free(bytes: *mut u8) {
+    drop(Box::from_raw(bytes));
 }
 
 #[cfg(test)]
